@@ -2,7 +2,6 @@
 const express = require('express');
 const userRouter = require('./routers/userRouter');
 
-
 //initialize express
 const app = express();
 const port = 5000;
