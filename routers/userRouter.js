@@ -26,5 +26,4 @@ router.get('/update', (req, res) => {
     res.send('Respond from user update');
 });
 
-
 module.exports = router;
