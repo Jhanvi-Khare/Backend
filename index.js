@@ -11,7 +11,7 @@ app.use( '/user', userRouter );
 
 // endpoint
 app.get('/', (req, res) => {
-    res.send('Response from express')
+    res.send('Response from express');
 });
 
 // add
@@ -28,7 +28,6 @@ app.get('/del', (req, res) => {
 app.get('/update', (req, res) => {
     res.send('Response from update');
 });
-
 
 // start server
 app.listen(port, () => { console.log('server started'); });
